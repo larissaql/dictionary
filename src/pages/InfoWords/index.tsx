@@ -1,3 +1,14 @@
-const InfoWords = () => <h1>Palavra e definição</h1>
+// import { Card, DTitle, InfoLink } from './styles'
+import { Card, Back } from './styles'
+
+const InfoWords = () => 
+    
+    <Card>Meanings...
+        <Back href='/'>Back</Back> 
+    </Card> 
+    
+
+
+    
 
 export default InfoWords

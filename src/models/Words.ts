@@ -9,10 +9,9 @@ export default class Words {
         word,
         meanings
       } = obj
-  
-     
+
       this.name = word
       this.defition = meanings
-    }
+    
   }
-
+}

@@ -16,7 +16,6 @@ export const DTitle = styled.span`
   font-family: 'bold';
 `
 
-
 export const InfoLink = styled(Link)`
   text-decoration: none;
   cursor: pointer;

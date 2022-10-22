@@ -1,5 +1,5 @@
 import Words from '../../models/Words'
-import { Card, DTitle, InfoLink} from './styles'
+import { Card, DTitle, InfoLink } from './styles'
 
 type Props = {
  word: Words
@@ -11,7 +11,6 @@ type Props = {
     <InfoLink to='/info'>
       <Card>
         <DTitle>{word.name}</DTitle>
-
 
       </Card>
     </InfoLink>

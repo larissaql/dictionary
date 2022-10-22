@@ -9,7 +9,7 @@ export const FilterInput = styled.input.attrs({type: 'text'})`
     margin: 0 auto 30px auto;
     height:  30px;
     border:  2px solid #aaa;
-    font-family: 'regular';
+    font-family: 'bold';
     font-size: 15px;
     text-align: center;
     padding:  0 10px;

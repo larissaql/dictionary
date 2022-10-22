@@ -1,16 +1,16 @@
 import { createGlobalStyle } from 'styled-components'
-import BoldFont from './Poppins-Bold.ttf'
-import RegularFont from './Poppins-Regular.ttf'
+import ItalicFont from './RobotoMono-LightItalic.ttf'
+import BoldFont from './Trispace_SemiExpanded-Bold.ttf'
 
 const FontStyles = createGlobalStyle`
     @font-face {
-        font-family: 'bold';
-        src: url(${BoldFont});
+        font-family: 'italic';
+        src: url(${ItalicFont});
     }
 
     @font-face {
-        font-family: 'regular';
-        src: url(${RegularFont});
+        font-family: 'bold';
+        src: url(${BoldFont});
     }
 `
 
